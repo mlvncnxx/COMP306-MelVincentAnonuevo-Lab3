@@ -1,0 +1,7 @@
+version: "3.9"
+services:
+  healthy-api:
+    image: melanonuevo/healthyapi:latest
+    container_name: healthyapi
+    ports:
+      - "3000:80"
